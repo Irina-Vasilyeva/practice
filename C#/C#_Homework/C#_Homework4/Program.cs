@@ -1,14 +1,14 @@
 ﻿// Задача 25
 // Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
-/*
-void Degree (int a, int b)
+
+int Degree (int a, int b)
 {
     int res = a;
     for (int count = 1; count < b; count ++)
     {
         res *= a;
     }
-    Console.WriteLine($"Number {a} to power {b} is {res}");
+    return res;
 }
 
 Console.WriteLine ("Input number A: ");
@@ -16,9 +16,14 @@ int firstNum = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("Input number B: ");
 int secondNum = Convert.ToInt32(Console.ReadLine());
 secondNum = Math.Abs(secondNum);
+int result = Degree (firstNum, secondNum);
 
-Degree (firstNum, secondNum);
-*/
+if (firstNum < 0 && result > 0)
+    result *= (-1);
+if (secondNum == 0)
+    result = 1;
+
+Console.WriteLine($"Number {firstNum} to power {secondNum} is {result}");
 
 // Задача 27
 // Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
@@ -44,7 +49,7 @@ Sum(number);
 
 // Задача 29
 // Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
-
+/*
 int[] NewArray (int min, int max)
 {
     int[] arr = new int[8];
@@ -65,3 +70,4 @@ int[] NewArray (int min, int max)
 
  int[] array = NewArray (minValue, maxValue);
  FinalArray (array);
+ */
