@@ -3,8 +3,8 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3
 
-int count = 0;
 Console.WriteLine ("Input number or stop: ");
+int count = 0;
 while (true)
 {
     Console.Write("");

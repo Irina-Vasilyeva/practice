@@ -25,6 +25,7 @@ if (secondNum == 0)
 
 Console.WriteLine($"Number {firstNum} to power {secondNum} is {result}");
 
+
 // Задача 27
 // Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 /*
@@ -70,4 +71,4 @@ int[] NewArray (int min, int max)
 
  int[] array = NewArray (minValue, maxValue);
  FinalArray (array);
- */
+*/

@@ -109,7 +109,7 @@ else Console.Write("Triangle does not exists");
 //Напишите программу, которая будет преобразовывать десятичное число в двоичное.
 //45 -> 101101
 //3  -> 11
-/*
+
 string BinarSyst (int num)
 {
     string binResult = string.Empty;
@@ -126,5 +126,5 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 string res = BinarSyst(number);
 Console.WriteLine($"Your number {number} in binar syst is {res}");
-*/
+
 
