@@ -8,7 +8,7 @@ int count = 0;
 while (true)
 {
     Console.Write("");
-    string s = Console.ReadLine();
+    string s = Console.ReadLine()!;
     if (s == "stop")
         break;
     else

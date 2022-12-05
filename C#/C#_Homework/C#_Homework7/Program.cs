@@ -157,4 +157,5 @@ int maxValue = 8;
 int[,] someMatrix = CreateMatrix (numberRows, numberColumns, minValue, maxValue);
 ShowMatrix (someMatrix);
 
+Console.WriteLine ("Average in each column of given array is:");
 ShowAverage ( CreateAverage (someMatrix));
